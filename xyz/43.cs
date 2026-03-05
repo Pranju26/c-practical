@@ -1,0 +1,14 @@
+using System;
+
+class NullableDemo
+{
+    static void Main()
+    {
+        int? num = null;
+
+        if (num.HasValue)
+            Console.WriteLine("Value = " + num.Value);
+        else
+            Console.WriteLine("Value is null");
+    }
+}
